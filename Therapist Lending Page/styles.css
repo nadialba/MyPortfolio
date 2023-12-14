@@ -1,0 +1,95 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-style: italic;
+}
+
+.hero {
+  background-image: url('background.jpg'); /* Add your background image URL */
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #e91e63;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.about,
+.services,
+.contact {
+  padding: 60px 0;
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.services li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
